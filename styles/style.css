@@ -166,3 +166,58 @@ nav {
     font-weight: 600;
     margin-top: 16px;
 }
+
+.brain-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    width: 85%;
+    max-width: 1360px;
+    margin: 120px auto 0px auto;
+}
+.brain-image {
+    max-width: 600px;
+}
+
+.brain-content {
+    max-width: 700px;
+}
+
+.brain-content h3 {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.brain-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+    max-width: 516px;
+}
+
+.brain-content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+    max-width: 485px;
+}
+
+.brain-content ul {
+    list-style: none;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.brain-content ul li {
+    color: #001931;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.brain-content ul li img {
+    margin-right: 4px;
+    height: 16px;
+}
