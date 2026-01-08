@@ -101,9 +101,9 @@ nav {
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .transparent-btn {
@@ -119,107 +119,107 @@ nav {
 }
 
 .transparent-btn:hover {
-    background-color: #ffffff;
-    color: #000000;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .note {
-    text-align: center;
-    margin: 50px auto 50px auto;
+  text-align: center;
+  margin: 50px auto 50px auto;
 }
 
 .note h2 {
-    font-size: 48px;
-    font-weight: bold;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .note p {
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    margin-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
 }
 
-.note-card-container   {
-    width:85%;
-    max-width: 1360px;
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    margin: 44px auto 0 auto;
+.note-card-container {
+  width: 85%;
+  max-width: 1360px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 44px auto 0 auto;
 }
 
 .note-card {
-    border-radius: 8px;
-    padding: 60.5px 24px;
-    box-shadow: 2px 2px 8px 0px rgba(86, 85, 85, 0.416);
+  border-radius: 8px;
+  padding: 60.5px 24px;
+  box-shadow: 2px 2px 8px 0px rgba(86, 85, 85, 0.416);
 }
 
 .note-card img {
-    background-color: #F95555;
-    padding: 10px;
-    border-radius: 50%;
+  background-color: #f95555;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .note-card h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
 }
 
 .brain-container {
-    display: flex;
-    gap: 60px;
-    align-items: center;
-    width: 85%;
-    max-width: 1360px;
-    margin: 120px auto 0px auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  width: 85%;
+  max-width: 1360px;
+  margin: 120px auto 0px auto;
 }
 .brain-image {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .brain-content {
-    max-width: 700px;
+  max-width: 700px;
 }
 
 .brain-content h3 {
-    color: #469165;
-    font-size: 16px;
-    font-weight: 600;
+  color: #469165;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .brain-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-top: 16px;
-    max-width: 516px;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 16px;
+  max-width: 516px;
 }
 
 .brain-content p {
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    margin-top: 16px;
-    max-width: 485px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+  max-width: 485px;
 }
 
 .brain-content ul {
-    list-style: none;
-    margin-top: 40px;
-    align-items: center;
+  list-style: none;
+  margin-top: 40px;
+  align-items: center;
 }
 
 .brain-content ul li {
-    color: #001931;
+  color: #001931;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 16px;
 }
 
 .brain-content ul li img {
-    margin-right: 4px;
-    height: 16px;
+  margin-right: 4px;
+  height: 16px;
 }
 
 .early-access {
@@ -227,7 +227,7 @@ nav {
   width: 85%;
   max-width: 1360px;
   margin: 120px auto 0px auto;
-  background-color: #F7F6F2;
+  background-color: #f7f6f2;
   padding: 80px 40px;
   border-radius: 12px;
 }
@@ -246,4 +246,48 @@ nav {
 
 .early-access .btn {
   margin-top: 24px;
+}
+
+footer {
+  background-color: #001931;
+  margin-top: 120px;
+}
+
+.footer-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.footer-logo img {
+    height: 60px;
+}
+
+.social h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.social i {
+    color: #000000;
+    background-color: #FAFAFA;
+    font-size: 20px;
+    margin-right: 16px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+footer p {
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    padding-bottom: 16px;
 }
