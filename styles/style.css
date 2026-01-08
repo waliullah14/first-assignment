@@ -221,3 +221,29 @@ nav {
     margin-right: 4px;
     height: 16px;
 }
+
+.early-access {
+  text-align: center;
+  width: 85%;
+  max-width: 1360px;
+  margin: 120px auto 0px auto;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  border-radius: 12px;
+}
+
+.early-access h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+}
+
+.early-access p {
+  color: #627382;
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+.early-access .btn {
+  margin-top: 24px;
+}
