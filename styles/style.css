@@ -284,6 +284,12 @@ footer {
     padding: 4px;
 }
 
+.social i:hover {
+    background-color: #2b72b4ad;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 footer p {
     text-align: center;
     color: #FAFAFA;
