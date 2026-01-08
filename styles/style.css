@@ -122,3 +122,47 @@ nav {
     background-color: #ffffff;
     color: #000000;
 }
+
+.note {
+    text-align: center;
+    margin: 50px auto 50px auto;
+}
+
+.note h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.note p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.note-card-container   {
+    width:85%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 44px auto 0 auto;
+}
+
+.note-card {
+    border-radius: 8px;
+    padding: 60.5px 24px;
+    box-shadow: 2px 2px 8px 0px rgba(86, 85, 85, 0.416);
+}
+
+.note-card img {
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.note-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
